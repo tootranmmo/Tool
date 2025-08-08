@@ -1,0 +1,14 @@
+output_dir: output
+languages: [en, fr]
+num_images: 10
+resize: true
+image_size: [800, 600]
+optimize_image: true
+schedule:
+  - date: "2025-08-08"
+    num_posts: 10
+  - date: "2025-08-09"
+    num_posts: 20
+image_source: "google"  # hoặc "pinterest"
+google_indexing_api_key: ""
+log_file: "output/log.txt"
